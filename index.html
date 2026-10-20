@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Grafos — Aeroportos</title>
+	<link rel="stylesheet" href="shared/styles/style.css">  
+</head>
+<body>
+	<div class="calcular">
+		<h2>Selecione os aeroportos</h2>
+		<form id="rotaForm">
+			<select id="origem" name="cidade_origem">
+				<option value="1">Aeroporto de Natal</option>
+				<option value="2">Aeroporto de Maceio</option>
+				<option value="3">Aeroporto de Fortaleza</option>
+				<option value="4">Aeroporto do Recife</option>
+				<option value="5">Aeroporto de Salvador</option>
+				<option value="6">Aeroporto de Manaus</option>
+				<option value="7">Aeroporto de Belem</option>
+				<option value="8">Aeroporto de Brasilia</option>
+				<option value="9">Aeroporto de Cuiaba</option>
+				<option value="10">Aeroporto de Campo Grande</option>
+				<option value="11">Aeroporto de Goiania</option>
+				<option value="12">Aeroporto de Guarulhos</option>
+				<option value="13">Aeroporto de Congonhas</option>
+				<option value="14">Aeroporto de Campinas</option>
+				<option value="15">Aeroporto do Galeão</option>
+				<option value="16">Aeroporto Santos Dumont</option>
+				<option value="17">Aeroporto Belo Horizonte</option>
+				<option value="18">Aeroporto Pampulha</option>
+				<option value="19">Aeroporto de Vitória</option>
+				<option value="20">Aeroporto de Curitiba</option>
+				<option value="21">Aeroporto de Navegantes</option>
+				<option value="22">Aeroporto de Floripa</option>
+				<option value="23">Aeroporto de Foz do Iguaçu</option>
+				<option value="24">Aeroporto de Porto Alegre</option>
+			</select>
+
+			<select id="destino" name="cidade_destino">
+				<option value="1">Aeroporto de Natal</option>
+				<option value="2">Aeroporto de Maceio</option>
+				<option value="3">Aeroporto de Fortaleza</option>
+				<option value="4">Aeroporto do Recife</option>
+				<option value="5">Aeroporto de Salvador</option>
+				<option value="6">Aeroporto de Manaus</option>
+				<option value="7">Aeroporto de Belem</option>
+				<option value="8">Aeroporto de Brasilia</option>
+				<option value="9">Aeroporto de Cuiaba</option>
+				<option value="10">Aeroporto de Campo Grande</option>
+				<option value="11">Aeroporto de Goiania</option>
+				<option value="12">Aeroporto de Guarulhos</option>
+				<option value="13">Aeroporto de Congonhas</option>
+				<option value="14">Aeroporto de Campinas</option>
+				<option value="15">Aeroporto do Galeão</option>
+				<option value="16">Aeroporto Santos Dumont</option>
+				<option value="17">Aeroporto Belo Horizonte</option>
+				<option value="18">Aeroporto Pampulha</option>
+				<option value="19">Aeroporto de Vitória</option>
+				<option value="20">Aeroporto de Curitiba</option>
+				<option value="21">Aeroporto de Navegantes</option>
+				<option value="22">Aeroporto de Floripa</option>
+				<option value="23">Aeroporto de Foz do Iguaçu</option>
+				<option value="24">Aeroporto de Porto Alegre</option>
+			</select>
+
+			<button type="submit">Calcular</button>
+		</form>
+		<span id="distancia"></span>
+	</div>
+
+	<div id="network"></div>
+
+	<div class="controls">
+		<button id="fitBtn">Ajustar à tela</button>
+		<button id="exportBtn">Exportar PNG</button>
+	</div>
+	<script type="text/javascript" src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+	<script type="module" src="shared/scripts/app.js" ></script>
+</body>
+</html>

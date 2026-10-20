@@ -1,0 +1,86 @@
+{
+    "nodes": [
+        { "id": 1,  "label": "Aeroporto de Natal",          "group": "nordeste" },
+        { "id": 2,  "label": "Aeroporto de Maceio",         "group": "nordeste" },
+        { "id": 3,  "label": "Aeroporto de Fortaleza",      "group": "nordeste" },
+        { "id": 4,  "label": "Aeroporto do Recife",         "group": "nordeste" },
+        { "id": 5,  "label": "Aeroporto de Salvador",       "group": "nordeste" },
+        { "id": 6,  "label": "Aeroporto de Manaus",         "group": "norte" },
+        { "id": 7,  "label": "Aeroporto de Belem",          "group": "norte" },
+        { "id": 8,  "label": "Aeroporto de Brasilia",       "group": "centroOeste" },
+        { "id": 9,  "label": "Aeroporto de Cuiaba",         "group": "centroOeste" },
+        { "id": 10, "label": "Aeroporto de Campo Grande",   "group": "centroOeste" },
+        { "id": 11, "label": "Aeroporto de Goiania",        "group": "centroOeste" },
+        { "id": 12, "label": "Aeroporto de Guarulhos",      "group": "sudeste" },
+        { "id": 13, "label": "Aeroporto de Congonhas",      "group": "sudeste" },
+        { "id": 14, "label": "Aeroporto de Campinas",       "group": "sudeste" },
+        { "id": 15, "label": "Aeroporto do Galeão",         "group": "sudeste" },
+        { "id": 16, "label": "Aeroporto Santos Dumont",     "group": "sudeste" },
+        { "id": 17, "label": "Aeroporto Belo Horizonte",    "group": "sudeste" },
+        { "id": 18, "label": "Aeroporto Pampulha",          "group": "sudeste" },
+        { "id": 19, "label": "Aeroporto de Vitória",        "group": "sudeste" },
+        { "id": 20, "label": "Aeroporto de Curitiba",       "group": "sul" },
+        { "id": 21, "label": "Aeroporto de Navegantes",     "group": "sul" },
+        { "id": 22, "label": "Aeroporto de Floripa",        "group": "sul" },
+        { "id": 23, "label": "Aeroporto de Foz do Iguaçu",  "group": "sul" },
+        { "id": 24, "label": "Aeroporto de Porto Alegre",   "group": "sul" }
+    ],
+    "edges": [
+        { "from": 1,  "to": 2,  "label": "35", "length": 35 },
+        { "from": 2,  "to": 3,  "label": "25", "length": 25 },
+        { "from": 1,  "to": 6,  "label": "23", "length": 23 },
+        { "from": 1,  "to": 7,  "label": "66", "length": 66 },
+        { "from": 2,  "to": 7,  "label": "86", "length": 86 },
+        { "from": 2,  "to": 5,  "label": "92", "length": 92 },
+        { "from": 3,  "to": 4,  "label": "55", "length": 55 },
+        { "from": 6,  "to": 7,  "label": "49", "length": 49 },
+        { "from": 7,  "to": 5,  "label": "67", "length": 67 },
+        { "from": 5,  "to": 4,  "label": "70", "length": 70 },
+
+        { "from": 6,  "to": 8,  "label": "72", "length": 72 },
+        { "from": 7,  "to": 8,  "label": "16", "length": 16 },
+        { "from": 7,  "to": 9,  "label": "39", "length": 39 },
+        { "from": 5,  "to": 9,  "label": "18", "length": 18 },
+        { "from": 5,  "to": 10, "label": "33", "length": 33 },
+        { "from": 5,  "to": 11, "label": "29", "length": 29 },
+        { "from": 4,  "to": 11, "label": "40", "length": 40 },
+        { "from": 4,  "to": 14, "label": "91", "length": 91 },
+
+        { "from": 8,  "to": 9,  "label": "45", "length": 45 },
+        { "from": 9,  "to": 10, "label": "39", "length": 39 },
+        { "from": 10, "to": 11, "label": "37", "length": 37 },
+
+        { "from": 8,  "to": 12, "label": "93", "length": 93 },
+        { "from": 8,  "to": 13, "label": "23", "length": 23 },
+        { "from": 9,  "to": 13, "label": "15", "length": 15 },
+        { "from": 10, "to": 13, "label": "44", "length": 44 },
+        { "from": 11, "to": 13, "label": "79", "length": 79 },
+        { "from": 11, "to": 14, "label": "31", "length": 31 },
+
+        { "from": 12, "to": 13, "label": "40", "length": 40 },
+        { "from": 13, "to": 14, "label": "34", "length": 34 },
+
+        { "from": 12, "to": 16, "label": "60", "length": 60 },
+        { "from": 13, "to": 15, "label": "42", "length": 42 },
+        { "from": 13, "to": 16, "label": "65", "length": 65 },
+        { "from": 13, "to": 17, "label": "76", "length": 76 },
+        { "from": 13, "to": 18, "label": "26", "length": 26 },
+        { "from": 14, "to": 18, "label": "8", "length": 8 },
+
+        { "from": 15, "to": 16, "label": "14", "length": 14 },
+        { "from": 16, "to": 17, "label": "86", "length": 86 },
+        { "from": 17, "to": 18, "label": "100", "length": 100},
+
+        { "from": 15, "to": 19, "label": "13", "length": 13 },
+        { "from": 16, "to": 19, "label": "22", "length": 22 },
+        { "from": 17, "to": 19, "label": "17", "length": 17 },
+        { "from": 18, "to": 19, "label": "70", "length": 70 },
+
+        { "from": 19, "to": 22, "label": "64", "length": 64 },
+
+        { "from": 20, "to": 21, "label": "12", "length": 12 },
+        { "from": 21, "to": 22, "label": "52", "length": 52 },
+        { "from": 22, "to": 23, "label": "24", "length": 24 },
+        { "from": 23, "to": 24, "label": "34", "length": 34 }
+    ]
+}
